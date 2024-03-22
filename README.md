@@ -1,7 +1,7 @@
 # EuroSAT-BoW-SVM
 EuroSAT Image Classification with Bag of Words and SVM
 
-The project focuses on the performance of the Support Vector Machine (SVM) classifier on the EuroSAT dataset. To extract significant features from these images, a method based on the Bag-of-Visual-Words algorithm was implemented. The process of extracting descriptors from the images was performed using the Scale-Invariant Feature Transform (SIFT) algorithm, and then the descriptors were grouped into a dictionary using the K-Means algorithm. Following the clustering algorithm application, we managed to obtain an efficient representation of information from the images. 
+Group project that focuses on the performance of the Support Vector Machine (SVM) classifier on the EuroSAT dataset. To extract significant features from these images, a method based on the Bag-of-Visual-Words algorithm was implemented. The process of extracting descriptors from the images was performed using the Scale-Invariant Feature Transform (SIFT) algorithm, and then the descriptors were grouped into a dictionary using the K-Means algorithm. Following the clustering algorithm application, we managed to obtain an efficient representation of information from the images. 
 
 The EuroSAT dataset consists of 27,000 images labeled with 10 different classes of land cover and land use, and it is made available to the public [1]. The images measure 64x64 pixels, and each class contains between 2,000 and 3,000 images.
 
